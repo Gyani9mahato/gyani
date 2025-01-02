@@ -1,0 +1,38 @@
+<!<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Interest Calculator</title>
+</head>
+<body>
+  <div class="selector">
+    <form id="calculatorForm" onsubmit="return false;"> <!-- Prevent form submission -->
+      <div>
+        <label for="ATY">Taken Years</label>
+        <input id="ATY"><br>
+        <label for="ATM">Taken Months</label>
+        <input id="ATM"><br>
+        <label for="ATD">Taken Days</label>
+        <input id="ATD"><br>
+      </div>
+      <div>
+        <label for="ARY">Return Years</label>
+        <input id="ARY"><br>
+        <label for="ARM">Return Months</label>
+        <input id="ARM"><br>
+        <label for="ARD">Return Days</label>
+        <input id="ARD"><br>
+      </div>
+      <div>
+        <label for="principal">Principal</label>
+        <input id="principal"><br>
+        <label for="rates">Rates</label>
+        <input id="rates"><br>
+      </div>
+      <button type="button" id="calculateButton">Calculate</button>
+    </form>
+  </div> 
+  <script src="./scripts/index.js"></script>
+</body>
+</html>
